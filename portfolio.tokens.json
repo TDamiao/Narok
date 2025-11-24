@@ -1,0 +1,71 @@
+{
+  "tokens": [
+    {
+      "symbol": "cbBTC",
+      "token_address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "decimals": 8,
+      "balance_of": "0x9e7b10d159615b327933ae15886885c606ecb743",
+      "price_source": {
+        "type": "chainlink",
+        "feed_address": "0x07DA0E54543a844a80ABE69c8A12F22B3aA59f9D",
+        "feed_decimals": 8
+      }
+    },
+    {
+      "symbol": "cbETH",
+      "token_address": "0x2Ae3F1Ec7F1F5012CFEAb0185BfC7Aa3CF0DEc22",
+      "decimals": 18,
+      "price_source": {
+        "type": "coingecko",
+        "id": "coinbase-wrapped-staked-eth"
+      }
+    },
+    {
+      "symbol": "AAVE",
+      "token_address": "0x63706e401C06aC8513145B7687A14804D17F814B",
+      "decimals": 18,
+      "price_source": {
+        "type": "chainlink",
+        "feed_address": "0x3d6774EF702A10b20FCa8Ed40FC022f7E4938e07",
+        "feed_decimals": 8
+      }
+    },
+    {
+      "symbol": "LINK",
+      "token_address": "0x88Fb150BDc53A65fE94dEa0c9Ba0A6dAF8C6E196",
+      "decimals": 18,
+      "price_source": {
+        "type": "chainlink",
+        "feed_address": "0x17CAb8FE31E32f08326e5E27412894e49B0f9D65",
+        "feed_decimals": 8
+      }
+    },
+    {
+      "symbol": "CRV",
+      "token_address": "0x8eE73c484A26e0A5DF2eE2a4960b789967dD0415",
+      "decimals": 18,
+      "price_source": {
+        "type": "coingecko",
+        "id": "curve-dao-token"
+      }
+    },
+    {
+      "symbol": "CAKE",
+      "token_address": "0x3055913c90FCc1A6cE9A358911721Eeb942013A1",
+      "decimals": 18,
+      "price_source": {
+        "type": "coingecko",
+        "id": "pancakeswap-token"
+      }
+    },
+    {
+      "symbol": "AERO",
+      "token_address": "0x940181A94A35A4569E4529A3CDfB74e38FD98631",
+      "decimals": 18,
+      "price_source": {
+        "type": "coingecko",
+        "id": "aerodrome-finance"
+      }
+    }
+  ]
+}
